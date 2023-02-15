@@ -71,7 +71,7 @@ body h3 {
 
 
 body {
-  /* background-image: url("./items/background_bank2.jpg");  */
+  background-image: url("./items/background_bank2.jpg"); 
    background-repeat: no-repeat;
   background-size: cover;
   /* background-color: rgba(54,6,92,255); */

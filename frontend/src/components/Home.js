@@ -1,5 +1,5 @@
 import React from "react";
-import HomeImage from "../items/Bank_img.png";
+import HomeImage from "../items/download.png";
 import Typewriter from "typewriter-effect";
 const HomePage = () => {
   return (
@@ -7,7 +7,7 @@ const HomePage = () => {
     <div className="home-topscreen">
       <div className="home-leftscreen">
         <h2>
-        My Bank</h2>
+        Banking System</h2>
         <div>
         <h3>
         <Typewriter

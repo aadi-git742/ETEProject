@@ -5,7 +5,7 @@ const path = require('path');
 let bodyParser = require('body-parser');
 const dotenv=require("dotenv")
 dotenv.config();
- const connectDB = require('./database/db');
+const connectDB = require('./database/db');
 
  
 

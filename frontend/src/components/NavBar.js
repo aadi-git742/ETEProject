@@ -2,7 +2,7 @@
 import React from "react";
 import { Nav, Navbar, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
-import SparkLogo from '../items/sparks.png'
+import SparkLogo from '../items/download.png'
 
 import { AiOutlineBank } from "react-icons/ai";
 
@@ -13,7 +13,7 @@ const NavBar = () =>{
         <Navbar bg="light" variant="light" expand="lg" className="sticky-nav">
             <Container>
               <Navbar.Brand href="#home">
-              <img src={SparkLogo} className="nav-logo" alt="React Logo" /> My Bank
+              <img src={SparkLogo} className="nav-logo" alt="React Logo" /> Banking System
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="navbarScroll" />
               <Navbar.Collapse id="navbarScroll" >
@@ -23,7 +23,7 @@ const NavBar = () =>{
                   <Nav.Link href="/user-list">User-List</Nav.Link>
                   {/* <Nav.Link href="/create-transaction">Tranfer money</Nav.Link> */}
                   <Nav.Link href="/transaction-history">
-                    transaction-history
+                    Transaction-history
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
